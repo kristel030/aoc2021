@@ -53,7 +53,7 @@ public class Bingo {
             String appendix = TEST ? " (TEST!)" : "";
             int sumNonDrawnNumbers = winningCard.sumNonDrawnNumbers();
             int answer = winningNumber * sumNonDrawnNumbers;
-            System.out.println("answer day 5, part #1 : " + answer + " (" + sumNonDrawnNumbers + " * " + winningNumber + ")" + appendix);
+            System.out.println("answer day 4, part #1 : " + answer + " (" + sumNonDrawnNumbers + " * " + winningNumber + ")" + appendix);
         } else {
             System.err.println("Oops, we do not have a winning card...");
         }
@@ -91,7 +91,7 @@ public class Bingo {
             String appendix = TEST ? " (TEST!)" : "";
             int sumNonDrawnNumbers = lastWinningCards.get(0).sumNonDrawnNumbers();
             int answer = lastDrawnNumber * sumNonDrawnNumbers;
-            System.out.println("answer day 5, part #2 : " + answer + " (" + sumNonDrawnNumbers + " * " + lastDrawnNumber + ")" + appendix);
+            System.out.println("answer day 4, part #2 : " + answer + " (" + sumNonDrawnNumbers + " * " + lastDrawnNumber + ")" + appendix);
         } else {
             System.err.println("Oops, we do not an all winning cards game... (last drawn number " + lastDrawnNumber + ")");
         }
